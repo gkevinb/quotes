@@ -1,4 +1,4 @@
-const quotes = [
+const quotesOther = [
   {
     quote: "Life isn't about getting and having, it's about giving and being.",
     author: "Kevin Kruse",
@@ -463,6 +463,70 @@ const quotes = [
   {
     quote: "If you can dream it, you can achieve it.",
     author: "Zig Ziglar",
+  },
+];
+
+
+const quotes = [
+  {
+    quote: "Stop allowing your mind to be a slave, to be jerked about by selfish impulses, to kick against fate and the present, and to mistrust the future.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "Dwell on the beauty of life. Watch the stars, and see yourself running with them.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "The happiness of your life depends upon the quality of your thoughts.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "Waste no more time arguing about what a good man should be. Be one.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "Very little is needed to make a happy life; it is all within yourself in your way of thinking.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "It is not death that a man should fear, but he should fear never beginning to live.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "Our life is what our thoughts make it.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "The soul becomes dyed with the colour of its thoughts.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "You need to avoid certain things in your train of thought: everything random, everything irrelevant. And certainly everything self-important or malicious.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "Is an emerald suddenly flawed if no one admires it?",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "But we need to eliminate unnecessary assumptions as well. To eliminate the unnecessary actions that follow.",
+    author: "Marcus Aurelius",
+  },
+  {
+    quote: "We suffer more from imagination than from reality.",
+    author: "Seneca",
   },
 ];
 
