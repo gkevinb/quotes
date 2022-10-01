@@ -3,11 +3,18 @@ import { useState } from 'react'
 import './App.scss'
 import Card from './components/card/Card'
 import quotes from './assets/quotes'
+import axios from 'axios'
 
 
 
 function App() {
   const [count, setCount] = useState(Math.floor(Math.random() * quotes.length))
+
+  const getData = async () => {
+    const res = await axios.get('https://bp6xigidiwkibrlufu6f47kndy0kenjf.lambda-url.eu-central-1.on.aws/');
+    console.log(res)
+    // return await res.json();
+ }
 
   return (
     <div className="App">
@@ -20,6 +27,7 @@ function App() {
         </a>
       </div> */}
       <Card quote={quotes[count].quote} author={quotes[count].author} />
+      <button onClick={getData}>Test</button>
       {/* <h1>Vite + React</h1> */}
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
